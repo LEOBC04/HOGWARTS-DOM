@@ -1,0 +1,38 @@
+.nav {
+  width: 100%;
+  min-height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: red; */
+}
+
+/* =========== LOGO ================ */
+.nav__logoContainer{
+  /* background-color: slateblue; */
+  width: 30rem;
+  height: 100%;
+}
+
+.nav__logo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========== NAV LINKS ================== */
+.nav__links {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav__link{
+  letter-spacing: 0.1rem;
+  font-size: var(--biggest-font-size);
+  color: var(--background3);
+  text-decoration:underline;
+}
+
