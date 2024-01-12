@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+			href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/crearPersonaje.css">
+  <title>Hogwarts DOM</title>
+</head>
+<body>
+  <!-- ============= BARRA DE NAVEGACIÓN ============= -->
+  <nav class="nav">
+    <div class="nav__logoContainer">
+      <a href="index.html" ><img src="/assets/img/harry-potter-logo.png" alt="logo" class="nav__logo"></a>
+    </div>
+
+    <ul class="nav__links">
+      <li class="nav__item"><a href="index.html" class="nav__link"> <i class="ri-home-line"></i> Inicio</a></li>
+      <li class="nav__item"><a href="/pages/crearPersonaje.html" class="nav__link"> <i class="ri-file-edit-line"></i> Crear Personaje</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== CREAR PERSONAJE =================== -->
+  <div class="container">
+    <div class="container__sombrero">
+      <img src="/assets/img/sombrero.png" alt="sombrero" class="container__img">
+    </div>
+
+    <div class="form__container">
+      <h2 class="form__title">Ingresar personaje</h2>
+      <form class="form">
+        <label for="nombre" class="form__label">Nombre:</label>
+        <input type="text" class="form__input" id="nombre">
+
+        <label for="nickName" class="form__label">Nick Name:</label>
+        <input type="text" class="form__input" id="nickName">
+        
+        <label for="genero" class="form__label">Género:</label>
+        <select name="genero" id="genero" class="form__select">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+        
+        <label for="date" class="form__label">Fecha de nacimiento:</label>
+        <input type="date" class="form__input" id="date">
+        
+        <label for="cualidades" class="form__label">Cualidades:</label>
+        <select name="cualidades" id="cualidades" class="form__select">
+          <option value="Valor, Fuerza, Audacia">Valor, Fuerza, Audacia</option>
+          <option value="Justicia, Lealtad, Paciencia">Justicia, Lealtad, Paciencia</option>
+          <option value="Creatividad, Erudición, Inteligencia">Creatividad, Erudición, Inteligencia</option>
+          <option value="Ambición, Determinación, Astucia">Ambición, Determinación, Astucia</option>
+        </select>
+
+
+        <label for="linaje" class="form__label">Linaje:</label>
+        <select name="linaje" id="linaje" class="form__select">
+          <option value="half-blood">half-blood</option>
+          <option value="muggleborn">muggleborn</option>
+          <option value="pure-blood">pure-blood</option>
+        </select>
+
+
+        <label for="patronus" class="form__label">Patronus:</label>
+        <input type="text" class="form__input" id="patronus">
+
+        <label for="rol" class="form__label">Rol:</label>
+        <select name="rol" id="rol" class="form__select">
+          <option value="student">student</option>
+          <option value="other">other</option>
+        </select>
+
+        <label for="" class="form__label">Imagen:</label>
+        <input type="url" class="form__input" placeholder="Ingrese URL de la imagen">
+
+        <input type="submit" value="Crear Personaje" class="form__submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

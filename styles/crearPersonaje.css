@@ -1,0 +1,53 @@
+.container{
+  background-color: rgba(252, 239, 180, 0.7);
+  margin: 3rem auto;
+  /* width: 95rem; */
+  width: 95rem;
+  height: 45rem;
+  display: flex;
+  /* justify-content: center; */
+  border-radius: 0.5rem;
+}
+
+.container__sombrero{
+  /* background-color: slateblue; */
+  padding: 3rem;
+  width: 40%;
+  height: 100%;
+}
+
+.container__img {
+  width: 100%;
+  height: 100%;
+}
+
+.form__container {
+  /* background-color: steelblue; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.form__title{
+  margin-top: 2rem;
+  font-size: 3rem;
+  /* text-align: center; */
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label{
+  font-size: var(--normal-font-size) ;
+}
+
+.form__input, .form__select{
+  margin-bottom: 1rem;
+  padding: 1rem;
+}

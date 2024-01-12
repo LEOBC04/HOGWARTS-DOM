@@ -1,0 +1,66 @@
+/* ================= CARDS CONTAINER ================= */
+.cards__container {
+  /* background-color: red; */
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex start;
+  gap: 1rem;
+}
+
+/* ============== CARD ==================== */
+.card{
+  background-color: rgba(252, 239, 180, 0.7);
+  width: 25rem;
+  height: 40rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
+.card:hover{
+  background-color: rgba(252, 239, 180);
+  
+}
+
+/* ============= IMG ===================== */
+.card__image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  object-position: 0 -1rem;
+  border-radius: 0.5rem;
+}
+
+/* ========== CARD INFO ======================= */
+.card__info{
+  margin: 1rem 0; 
+  display: flex;
+  flex-direction: column;
+}
+
+.card__name{
+  text-align: center;
+  color: var(--text-color1);
+  font-size: var(--h2-font-size);
+}
+
+.card__item{
+  font-size: var(--normal-font-size);
+  color: var(--text-color2);
+}
+
+.card__item--strong{
+  color: var(--text-color1);
+}
+
+/* ============= BUTTON ================= */
+.card__button{
+  background-color: var(--text-color1);
+  color: var(--text-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: var(--h2-font-size);
+  text-align: center;
+}

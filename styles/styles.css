@@ -7,18 +7,14 @@
   /* ========= font size ============ */
   --biggest-font-size: 2.5rem;
   --bigger-font-size: 1.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 1.6rem;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.8rem;
+  --normal-font-size: 1.4rem;
   --smaller-font-size: 1.4rem;
 
   /* ========== colors =============== */
-  --background-body: #ffffff;
-  --background1: #f0f0f0;
-  --background2: #f2f0f1;
-  --background3: #f0eeed;
-  --text-color: #000000;
+  --text-color:  #f0eeed;
+  --text-color1: #212529;
   --text-color2: #343a40;
 }
 

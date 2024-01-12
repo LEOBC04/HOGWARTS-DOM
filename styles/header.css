@@ -29,10 +29,19 @@
   gap: 5rem;
 }
 
+.nav__item{
+  /* background-color: green; */
+  width: 20%;
+  text-align: center;
+}
+
 .nav__link{
   letter-spacing: 0.1rem;
   font-size: var(--biggest-font-size);
-  color: var(--background3);
-  text-decoration:underline;
+  color: var(--text-color);
+}
+
+.nav__link:hover {
+  text-decoration: underline;
 }
 
